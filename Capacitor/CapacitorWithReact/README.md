@@ -2,9 +2,9 @@
 
 # Документация
 
-Capacitor - https://capacitorjs.com/
-Capacitor with React - https://capacitorjs.com/solution/react
-Capacitor Electron - https://capacitor-community.github.io/electron/docs/gettingstarted
+Capacitor - https://capacitorjs.com/ .
+Capacitor with React - https://capacitorjs.com/solution/react .
+Capacitor Electron - https://capacitor-community.github.io/electron/docs/gettingstarted .
 
 ### 1. Установить Capacitor.
 
