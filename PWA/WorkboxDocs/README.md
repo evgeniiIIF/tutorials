@@ -1,0 +1,1 @@
+<https://developer.chrome.com/docs/workbox/modules/workbox-background-sync?hl=ru>
