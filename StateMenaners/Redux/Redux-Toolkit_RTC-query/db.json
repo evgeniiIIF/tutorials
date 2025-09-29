@@ -1,0 +1,120 @@
+{
+  "posts": [
+    {
+      "id": "4",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "5",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "post": [
+    {
+      "id": "1",
+      "title": "a title",
+      "body": "a comment about post 1"
+    },
+    {
+      "id": "2",
+      "title": "a title",
+      "body": "a comment about post 2"
+    },
+    {
+      "id": "3",
+      "title": "a title",
+      "body": "a comment about post 3"
+    },
+    {
+      "id": "4",
+      "title": "a title",
+      "body": "a comment about post 4"
+    },
+    {
+      "id": "5",
+      "title": "a title",
+      "body": "a comment about post 5"
+    }
+  ],
+  "symbols": [
+    {
+      "symbol": "BTC_USDT",
+      "base": "BTC",
+      "quote": "USDT",
+      "formula_type": "default"
+    },
+    {
+      "symbol": "ETH_BTC",
+      "base": "ETH",
+      "quote": "BTC",
+      "formula_type": "default"
+    },
+    {
+      "symbol": "ETH_USDT",
+      "base": "ETH",
+      "quote": "USDT",
+      "formula_type": "some"
+    },
+    {
+      "symbol": "AB_CD",
+      "base": "AB",
+      "quote": "CD",
+      "formula_type": "custom",
+      "formula_id": "abcd"
+    }
+  ],
+  "prices": [
+    {
+      "symbol": "BTC_USDT",
+      "price": "30000.00",
+      "timestamp": 1697049600
+    },
+    {
+      "symbol": "ETH_BTC",
+      "price": "0.0675",
+      "timestamp": 1697049600
+    },
+    {
+      "symbol": "ETH_USDT",
+      "price": "2025.00",
+      "timestamp": 1697049600
+    },
+    {
+      "symbol": "AB_CD",
+      "price": "1.50",
+      "timestamp": 1697049600
+    }
+  ],
+  "fee": [
+    {
+      "symbol": "BTC_USDT",
+      "fee": "0.01",
+      "min_amount": "0.001",
+      "max_amount": "10.0",
+      "timestamp": 1697049600
+    },
+    {
+      "symbol": "ETH_BTC",
+      "fee": "0.005",
+      "min_amount": "0.01",
+      "max_amount": "5.0",
+      "timestamp": 1697049600
+    },
+    {
+      "symbol": "ETH_USDT",
+      "fee": "0.01",
+      "min_amount": "0.01",
+      "max_amount": "10.0",
+      "timestamp": 1697049600
+    },
+    {
+      "symbol": "AB_CD",
+      "fee": "0.02",
+      "min_amount": "0.1",
+      "max_amount": "20.0",
+      "timestamp": 1697049600
+    }
+  ]
+}

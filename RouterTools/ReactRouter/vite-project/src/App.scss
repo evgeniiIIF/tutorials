@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background: rgb(67, 165, 42);
+}
+
+main {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background: rgb(240, 228, 71);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background: rgb(165, 97, 42);
+}
