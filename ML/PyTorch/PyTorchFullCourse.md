@@ -72,6 +72,7 @@ torch.BoolTensor(3, 3)                 # 3x3 матрица
 # 10. torch.Tensor() - псевдоним для FloatTensor
 torch.Tensor([1, 2, 3])                # То же что torch.FloatTensor()
 torch.Tensor(2, 4)                     # 2x4 с мусорными значениями
+torch.empty(2, 4)                     # 2x4 с мусорными значениями
 ```
 
 ## Основные способы создания torch.tensor() - из данных
@@ -197,6 +198,9 @@ print(randint)
 torch.manual_seed(42)
 random_tensor = torch.rand(3)
 print(random_tensor)  # Всегда одинаковый результат
+
+t = torch.empty(2, 3)
+t.random_(0, 10)  # заполняет t случайными целыми от 0 до 9
 ```
 
 ## Клонирование и копирование
